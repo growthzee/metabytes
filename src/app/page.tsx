@@ -12,9 +12,10 @@ import { CTASection } from "@/components/cta-section";
 import { Footer } from "@/components/footer";
 import { FloatingCTA } from "@/components/floating-cta";
 import { Background } from "@/components/background";
-import Hero from "@/components/hero-section";
+import { Hero } from "@/components/hero-section";
 import ServicesSection from "@/components/services-section";
 import { TestimonialsSection } from "@/components/testimonials-section";
+import { GlobalPartners } from "@/components/GlobalPartners";
 
 export default function HomePage() {
   return (
@@ -26,6 +27,7 @@ export default function HomePage() {
       <FeaturesSection />
       <ServicesSection />
       <ApproachSection />
+      <GlobalPartners />
       <CaseStudiesSection />
       <TestimonialsSection />
       <CTASection />
