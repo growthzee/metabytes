@@ -1,27 +1,29 @@
-import type React from "react";
-import type { Metadata } from "next";
-
-// import { GeistMono } from "geist/font/mono"; // Removed because module not found
-
-import { Suspense } from "react";
+import { Dela_Gothic_One, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 
-export const metadata: Metadata = {
-  title: "Metabytes — AI workflows for modern teams",
-  description:
-    "Metabytes builds custom AI workflows for modern teams. Automate ops, elevate customer experience, and ship faster.",
-  generator: "v0.app",
-};
+const delaGothic = Dela_Gothic_One({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-dela",
+});
+
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  variable: "--font-space",
+});
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html lang="en" className="h-full bg-white antialiased">
-      <body className={`h-full text-slate-900 font-sans `}>
-        <Suspense fallback={null}>{children}</Suspense>
+    <html
+      lang="en"
+      className={`${delaGothic.variable} ${spaceGrotesk.variable}`}
+    >
+      <body className="font-space bg-[#F8F4E8] text-[#0A2A1F] antialiased selection:bg-[#D2E823] selection:text-[#0A2A1F]">
+        {children}
       </body>
     </html>
   );

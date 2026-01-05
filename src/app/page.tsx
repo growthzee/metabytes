@@ -1,38 +1,23 @@
-"use client";
-
-import { Header } from "@/components/header";
-
-import { BenefitsSection } from "@/components/benefits-section";
-import { FeaturesSection } from "@/components/features-section";
-
-import { ApproachSection } from "@/components/approach-section";
-import { CaseStudiesSection } from "@/components/case-studies-section";
-
-import { CTASection } from "@/components/cta-section";
+import { Navbar } from "@/components/Navbar";
+import { Hero } from "@/components/Hero";
+import { BentoGrid } from "@/components/BentoGrid";
+import { Process } from "@/components/Process"; // New
+import { CaseStudies } from "@/components/CaseStudies";
+import { Pricing } from "@/components/Pricing"; // New
+import { Faq } from "@/components/Faq"; // New
 import { Footer } from "@/components/footer";
-import { FloatingCTA } from "@/components/floating-cta";
-import { Background } from "@/components/background";
-import { Hero as FluxHero } from "@/components/hero-section";
-import ServicesSection from "@/components/services-section";
-import { TestimonialsSection } from "@/components/testimonials-section";
-import { GlobalPartners } from "@/components/GlobalPartners";
 
-export default function HomePage() {
+export default function Home() {
   return (
-    <div className="min-h-screen bg-white text-slate-900 font-sans antialiased">
-      <Background />
-      <Header />
-      <FluxHero />
-      <BenefitsSection />
-      <FeaturesSection />
-      <ServicesSection />
-      <ApproachSection />
-      <GlobalPartners />
-      <CaseStudiesSection />
-      <TestimonialsSection />
-      <CTASection />
+    <main className="bg-[#F8F4E8]">
+      <Navbar />
+      <Hero />
+      <BentoGrid />
+      <Process />
+      <CaseStudies />
+      <Pricing />
+      <Faq />
       <Footer />
-      <FloatingCTA />
-    </div>
+    </main>
   );
 }
