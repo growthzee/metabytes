@@ -31,7 +31,7 @@ export const Footer = () => {
           <div className="flex flex-col gap-4">
             <div>
               <div className="text-3xl font-dela mb-2">
-                META<span className="text-[#D2E823]">BYTES</span>
+                COTO<span className="text-[#D2E823]">ADS</span>
               </div>
               <p className="opacity-60 text-sm max-w-[250px]">
                 Where data meets creative destruction. Scalable growth for bold
