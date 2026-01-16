@@ -28,7 +28,7 @@ export const Footer = () => {
         <div className="max-w-7xl mx-auto px-4 md:px-8 flex flex-col md:flex-row justify-between items-center gap-8">
           <div>
             <div className="text-3xl font-dela mb-2">
-              META<span className="text-[#D2E823]">BYTES</span>
+              COTO<span className="text-[#D2E823]">ADS</span>
             </div>
             <p className="opacity-60 text-sm">
               Where data meets creative destruction.

@@ -40,8 +40,8 @@ export const Navbar = () => {
             href="#"
             className="text-2xl md:text-3xl font-dela tracking-tighter"
           >
-            META
-            <span className="text-[#D2E823] text-outline">BYTES</span>
+            COTO
+            <span className="text-[#D2E823] text-outline">ADS</span>
           </a>
 
           {/* Desktop Links */}
