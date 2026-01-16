@@ -15,10 +15,10 @@ export const Hero = () => {
             </span>
           </div>
 
-          <h1 className="font-dela text-6xl md:text-8xl leading-[0.9] tracking-tighter text-[#0A2A1F]">
-            SCALE YOUR <br />
+          <h1 className="font-dela text-6xl md:text-8xl leading-[0.9] tracking-tighter text-[#0A2A1F] uppercase">
+            Grow​‍​‌‍​‍‌ wiser <br />
             <span className="relative">
-              REVENUE
+              Expand
               <svg
                 className="absolute -bottom-4 left-0 w-full"
                 viewBox="0 0 200 20"
@@ -33,12 +33,14 @@ export const Hero = () => {
               </svg>
             </span>
             <br />
-            TO BYTES.
+            quickly
           </h1>
 
           <p className="font-medium text-lg md:text-xl max-w-lg leading-relaxed opacity-90 text-[#0A2A1F]">
-            Stop wasting money on "pretty" ads that don't convert. We build
-            data-backed marketing machines that turn bytes into bank.
+            Cotoads help businesses grow their online presence through
+            high-impact digital marketing. We transform the digital footprint
+            into actual growth through SEO, social media, performance marketing,
+            and e-commerce.
           </p>
 
           <div className="flex flex-wrap gap-4 w-full">

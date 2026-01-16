@@ -17,12 +17,15 @@ export const BentoGrid = () => {
       <div className="flex flex-col md:flex-row justify-between md:items-end mb-12 gap-6">
         <div>
           <h2 className="font-dela text-4xl md:text-5xl tracking-tighter text-[#0A2A1F] uppercase leading-tight">
-            Our Core
+            Our
             <br />
-            Weapons
+            Services
           </h2>
           <p className="font-medium opacity-60 mt-2">
-            Data-backed strategies to crush your competition.
+            Cotoads provides a comprehensive package of digital marketing
+            services that are specifically targeted at driving growth of brands
+            in the digital space, increasing brand conversion and brand
+            ​‍​‌‍​‍‌scaling.
           </p>
         </div>
         <a

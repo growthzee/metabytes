@@ -7,16 +7,20 @@ export const Faq = () => {
 
   const faqs = [
     {
-      q: "How fast will I see results?",
-      a: "Most clients see a positive shift in leads within 14 days. Scale usually kicks in during month two after our pixel optimization.",
+      q: "Which services should I start with first?",
+      a: "It is basically based on the goals of your business. Some brands initiate SEO for organic long-term growth, and some other brands start with ads or social media for getting quick results.",
     },
     {
-      q: "Do you offer month-to-month contracts?",
-      a: "Yes. We believe in our results. If we don't deliver, you shouldn't be forced to stay.",
+      q: "Do you provide regular reports and updates?",
+      a: "Yes. We provide regular reports on performance so that you can easily understand how your campaigns are progressing.",
     },
     {
-      q: "What industries do you specialize in?",
-      a: "SaaS, High-Ticket E-commerce, and Professional Services (Real Estate/Legal).",
+      q: "Will you manage everything or do we need to handle something?",
+      a: "We do the major part of the work. At most times, we need from you only basic information about the business and approvals.",
+    },
+    {
+      q: "Is digital marketing suitable for all industries?",
+      a: "Absolutely. Digital marketing can be a great tool for almost every industry such as e-commerce, services, startups, and local ​‍​‌‍​‍‌businesses.",
     },
   ];
 
