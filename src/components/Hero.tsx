@@ -109,22 +109,22 @@ export const Hero = () => {
           <div className="relative bg-[#0A2A1F] rounded-[2rem] border-2 border-[#0A2A1F] overflow-hidden z-10 aspect-[4/5] shadow-[8px_8px_0px_0px_#0A2A1F] group">
             <div className="grid grid-cols-2 h-full w-full">
               <img
-                src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=400"
+                src="https://images.pexels.com/photos/7580801/pexels-photo-7580801.jpeg?w=400"
                 className="w-full h-full object-cover border-r-2 border-b-2 border-[#0A2A1F] opacity-90 group-hover:opacity-100 transition-opacity"
                 alt="Agency Life"
               />
               <img
-                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400"
+                src="https://images.pexels.com/photos/7580637/pexels-photo-7580637.jpeg?w=400"
                 className="w-full h-full object-cover border-b-2 border-[#0A2A1F] opacity-80 group-hover:opacity-100 transition-opacity"
                 alt="Strategy"
               />
               <img
-                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400"
+                src="https://images.pexels.com/photos/8837770/pexels-photo-8837770.jpeg?w=400"
                 className="w-full h-full object-cover border-r-2 border-[#0A2A1F] opacity-80 group-hover:opacity-100 transition-opacity"
                 alt="Data"
               />
               <img
-                src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=400"
+                src="https://images.pexels.com/photos/5054208/pexels-photo-5054208.jpeg?w=400"
                 className="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity"
                 alt="Creative"
               />
