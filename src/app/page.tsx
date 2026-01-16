@@ -17,7 +17,7 @@ export default function Home() {
       <BentoGrid />
       <Process />
       <CaseStudies />
-      <Pricing />
+      {/* <Pricing /> */}
       <Faq />
       <Footer />
     </main>
