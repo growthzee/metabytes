@@ -116,7 +116,7 @@ export const Hero = () => {
                 alt="Agency Life"
               />
               <img
-                src="https://images.pexels.com/photos/7580637/pexels-photo-7580637.jpeg?w=400"
+                src="https://images.pexels.com/photos/19238352/pexels-photo-19238352.jpeg?w=400"
                 className="w-full h-full object-cover border-b-2 border-[#0A2A1F] opacity-80 group-hover:opacity-100 transition-opacity"
                 alt="Strategy"
               />

@@ -5,25 +5,25 @@ export const Process = () => {
     {
       id: "01",
       title: "DEEP AUDIT",
-      desc: "We tear your current funnel apart to find the leaks killing your ROI.",
+      desc: "We get what your business is about and what you want to achieve.",
       icon: <Search size={24} />,
     },
     {
       id: "02",
       title: "THE BLUEPRINT",
-      desc: 'Custom strategy built for scale, not just "brand awareness."',
+      desc: "We come up with a well-defined plan for your marketing activities.",
       icon: <PenTool size={24} />,
     },
     {
       id: "03",
       title: "EXECUTION",
-      desc: "Our creative squad launches high-velocity ads and landing pages.",
+      desc: "We conduct and enhance the campaigns to get outstanding results.",
       icon: <Zap size={24} />,
     },
     {
       id: "04",
       title: "AGGRESSIVE SCALE",
-      desc: "We double down on winners and cut losers to maximize your bank.",
+      desc: "We amplify the successful strategies for rapid ​‍​‌‍​‍‌growth.",
       icon: <BarChart size={24} />,
     },
   ];
