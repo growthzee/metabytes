@@ -97,7 +97,9 @@ export default function EducationPortfolio() {
           </div>
           <h1 className="font-dela text-6xl md:text-8xl text-[#0A2A1F] uppercase leading-[0.85] tracking-tighter mb-8">
             Education <br />{" "}
-            <span className="text-white text-outline-green">Marketing.</span>
+            <span className="text-[#D2E823] text-outline-green">
+              Marketing.
+            </span>
           </h1>
           <p className="max-w-2xl text-xl font-bold text-[#0A2A1F] opacity-80 leading-relaxed">
             {EDUCATION_CONTENT.description}
