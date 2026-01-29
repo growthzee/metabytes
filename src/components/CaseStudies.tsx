@@ -1,6 +1,7 @@
 "use client";
 import { useRef } from "react";
 import { ArrowLeft, ArrowRight, ExternalLink, TrendingUp } from "lucide-react";
+import Link from "next/link";
 
 const cases = [
   {
@@ -137,7 +138,10 @@ export const CaseStudies = () => {
           </div>
         ))}
 
-        <div className="min-w-[300px] md:min-w-[400px] snap-center flex flex-col justify-center items-center border-2 border-[#0A2A1F] border-dashed rounded-2xl aspect-[4/3] bg-[#D2E823]/10 hover:bg-[#D2E823] transition-colors cursor-pointer group">
+        <Link
+          href="/portfolio"
+          className="min-w-[300px] md:min-w-[400px] snap-center flex flex-col justify-center items-center border-2 border-[#0A2A1F] border-dashed rounded-2xl aspect-[4/3] bg-[#D2E823]/10 hover:bg-[#D2E823] transition-colors cursor-pointer group"
+        >
           <div className="w-20 h-20 bg-[#F8F4E8] rounded-full flex items-center justify-center border-2 border-[#0A2A1F] mb-4 group-hover:scale-110 transition-transform shadow-[4px_4px_0px_0px_#0A2A1F]">
             <ArrowRight size={32} />
           </div>
@@ -146,7 +150,7 @@ export const CaseStudies = () => {
             <br />
             Case Studies
           </h3>
-        </div>
+        </Link>
       </div>
     </section>
   );
