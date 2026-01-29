@@ -60,14 +60,17 @@ export const CaseStudies = () => {
   };
 
   return (
-    <section className="py-24 border-b-2 border-[#0A2A1F] bg-[#F8F4E8]">
+    <section
+      className="py-24 border-b-2 border-[#0A2A1F] bg-[#F8F4E8]"
+      id="portfolio"
+    >
       <div className="max-w-7xl mx-auto px-4 md:px-8 mb-12 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
         <div>
           <h2 className="font-dela text-4xl md:text-5xl tracking-tighter uppercase">
             Proven Results
           </h2>
           <p className="font-medium opacity-70 mt-2">
-            We don't promise growth. We deliver it.
+            We don&apos;t promise growth. We deliver it.
           </p>
         </div>
 

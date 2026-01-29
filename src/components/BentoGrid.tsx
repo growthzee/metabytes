@@ -11,7 +11,10 @@ import {
 
 export const BentoGrid = () => {
   return (
-    <section className="py-24 px-4 md:px-8 max-w-7xl mx-auto font-space">
+    <section
+      className="py-24 px-4 md:px-8 max-w-7xl mx-auto font-space"
+      id="services"
+    >
       {/* Section Header */}
       <div className="flex flex-col md:flex-row justify-between md:items-end mb-12 gap-6">
         <div>

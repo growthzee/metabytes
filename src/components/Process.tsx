@@ -29,7 +29,7 @@ export const Process = () => {
   ];
 
   return (
-    <section className="py-24 px-4 md:px-8 max-w-7xl mx-auto">
+    <section className="py-24 px-4 md:px-8 max-w-7xl mx-auto" id="process">
       <div className="mb-16">
         <h2 className="font-dela text-4xl md:text-6xl tracking-tighter uppercase">
           The Playbook
